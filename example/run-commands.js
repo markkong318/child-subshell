@@ -3,7 +3,7 @@ const subshell = require('../src/wrapper');
 const shell = subshell.shell();
 const run = subshell.command(shell);
 
-shell.setLogger((line) => console.log(line))
+shell.setLogger((line) => console.log(line));
 
 (async () => {
   await run('ls');

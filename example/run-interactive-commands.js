@@ -4,7 +4,7 @@ const shell = subshell.shell();
 const run = subshell.command(shell);
 const run_interactive = subshell.command_interactive(shell);
 
-shell.setLogger((line) => console.log(line))
+shell.setLogger((line) => console.log(line));
 
 let python_commands = ['1+1', 'print "hello"', 'exit()'];
 
