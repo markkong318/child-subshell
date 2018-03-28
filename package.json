@@ -1,5 +1,5 @@
 {
-  "name": "subshell",
+  "name": "child-subshell",
   "version": "1.0.0",
   "description": "A sub-shell for running commands",
   "main": "src/wrapper.js",
@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "markkong318 <markkong318@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markkong318/child-subshell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markkong318/child-subshell/issues"
+  },
+  "homepage": "https://github.com/markkong318/child-subshell#readme"
 }
