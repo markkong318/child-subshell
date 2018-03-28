@@ -6,7 +6,7 @@ It uses unbuffer for flushing the console message. You should install it first w
 
 # Usage
 Here is a simple example for running commands. You could see the running result by setting `setLogger` on shell
-```
+```js
 const subshell = require('../src/wrapper');
 
 const shell = subshell.shell();
@@ -24,7 +24,7 @@ shell.setLogger((line) => console.log(line));
 
 The next example is an interactive commad demo. It calls the python and sending some formula
 
-```
+```js
 const subshell = require('../src/wrapper');
 
 const shell = subshell.shell();
