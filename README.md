@@ -2,7 +2,7 @@
 child-subshell is a library to create a new shell and run sequence of commands inside the shell. You also could run interactive command and send proper input text by monitoring the output from command.
 
 # Install
-It uses unbuffer for flushing the console message. You should install it first with `brew install unbuffer`. To install the package, run `npm i child-subshell`
+It uses unbuffer for flushing the console message. You should install it first with `brew install homebrew/dupes/expect`. To install the package, run `npm i child-subshell`
 
 # Usage
 Here is a simple example for running commands. You could see the running result by setting `setLogger` on shell
